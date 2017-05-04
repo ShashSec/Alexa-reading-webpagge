@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "AskedQuestion",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "WhatIsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "TellMeQuestion",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "TellMeIntent"
+    }
+  ]
+}
